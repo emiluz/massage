@@ -1,0 +1,130 @@
+/* css file for the headTail website */
+
+/* Header with photo background */
+
+header {
+    height: 170px;
+}
+
+.headerColumnone {
+  float: left;
+}
+
+.companyName {
+   font-family: sans-serif;
+   font-size: 70px;
+   text-align: left;
+   text-decoration: none;
+   padding-top: 20px;
+   color: green;
+}
+
+.companyMission {
+   font-size: 35px;
+   color: green;
+}
+.logoTop{
+   width: 150px;
+}
+
+#hTHeader {
+   float: left;
+   padding-left: 20px;
+}
+
+/* most elements inherit from hTbody */
+
+
+
+.hTbody {
+    
+	margin: 5%;
+    font-family: 'Gentium Basic', Arial, sans-serif;
+    font-size: 16px;
+    text-align: left;
+    padding-top: 2.5px;
+    padding-bottom: 2.5px;
+    padding-left: 10px;
+    border: 2px solid;
+    border-radius: 25px;
+    background: darkseagreen;
+    border-color: rgb(248,154,47);
+
+}
+
+/* Settings for horizontal nav */
+
+#hTNav ul
+{
+    margin: 0;
+    list-style-type: none;
+    text-align: center;
+    padding: 10px 4%;
+}
+
+#hTNav ul li { 
+	display: inline-block; 
+	border: 2px solid;
+    border-radius: 15px;
+    border-color: rgb(248,154,47);
+    background-color: darkseagreen;
+    padding: 1% 4%;
+}
+
+#hTNav ul li a {
+	color: black;
+	padding: 0px 0px;
+}
+
+#hTContacts ul {
+	list-style-type: none;
+    text-align: center;
+}
+
+#hTContacts ul li {
+	Margin: 10px 0;
+} 
+
+#hTFeedback form {
+  margin-left: 10%;
+}
+
+#hTForms ul {
+	list-style-type: none;
+    text-align: center;
+}
+
+#hTForms ul li {
+	Margin: 10px 0;
+} 
+
+#mapCanvas {
+	width: 500px;
+	height: 400px;
+    margin-bottom: 2%;
+}
+
+/* Adobe icon for .pdf forms */
+
+a[href$=".pdf"] {
+    background: url("../images/Adobe_PDF_file_icon_24x24.png") no-repeat 10px 10px;
+    padding-left: 4%;
+    padding-top: 1%;
+}
+
+Footer {
+    font-family: 'Gentium Basic', Arial, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+}
+
+.offering {
+  margin-right: 5px;
+  margin-bottom: -10px;
+  height: 7em;
+  width: 7em;
+  float: left;
+}
+
