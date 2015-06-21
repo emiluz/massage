@@ -1,0 +1,34 @@
+body{
+
+}
+.container{
+}
+
+/*header*/
+.companyName{
+  font-size: 3em;
+}
+.companyMission{
+  font-size: 1em;
+  margin-bottom: 5%;
+}
+img{
+
+}
+.img-thumbnail{
+
+
+}
+.btn-lg{
+}
+.offerings{
+  text-align: justify;
+  font-weight: bold;
+}
+
+footer{
+background: red;
+height: 30px;
+text-align: center;
+margin-top: 5%;
+}
