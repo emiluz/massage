@@ -1,1 +1,2 @@
-$('.carousel-example-generic').carousel()
+$('.myCorousel').carousel()
+$('#gmap_canvas').click()

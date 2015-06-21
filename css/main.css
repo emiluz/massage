@@ -7,24 +7,40 @@ body{
 /*header*/
 .companyName{
   font-size: 3em;
+  text-align: center;
 }
 .companyMission{
   font-size: 1em;
   margin-bottom: 5%;
+  text-align: center;
+}
+
+.Jumbotron{
+  text-align:;
+  margin: 5% 0 5% 0;
 }
 img{
+}
 
+.containe{
+  max-width: 1000px;
 }
 .img-thumbnail{
 
-
-}
-.btn-lg{
 }
 .offerings{
   text-align: justify;
-  font-weight: bold;
 }
+.glyphicon{
+  font-size: 3em;
+  display: block;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.btn-lg{
+}
+
 
 footer{
 background: red;
