@@ -14,6 +14,33 @@ body{
   margin-bottom: 5%;
   text-align: center;
 }
+.container-nav{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+
+/*Typography*/
+.navbar-brand {
+  float: left;
+  height: 80px;
+  padding: 30px 15px;
+  font-size: 3em;
+  line-height: 20px;
+  font-family: 'Slabo 27px', serif;
+  color: #005d83;
+}
+
+.navbar-nav > li > a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 20px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
 /*About*/
 .Jumbotron{
   text-align:;
@@ -54,7 +81,8 @@ a.anchor{
 }
 
 footer{
-  background: black;
+  background-color: #f8f8f8;
+  border-color: #e73;
   height: 30px;
   text-align: center;
   color: white;
