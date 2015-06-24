@@ -1,7 +1,3 @@
-body{
-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-font-size: 20px;
-}
 
 
 /*header*/
@@ -15,13 +11,7 @@ font-size: 20px;
   margin-bottom: 5%;
   text-align: center;
 }
-<<<<<<< HEAD
 
-.navbar-inverse{
-  background-color: #f8f8f8;
-  border-color: #e7e7e7;
-}
-=======
 .container-nav{
   display: flex;
   flex-wrap: nowrap;
@@ -49,7 +39,11 @@ font-size: 20px;
   letter-spacing: 2px;
 }
 
->>>>>>> master
+.navbar-right{
+  margin-top: 20px;
+  margin-right: 15px;
+}
+
 /*About*/
 .Jumbotron{
   text-align:;
@@ -91,14 +85,10 @@ a.anchor{
 
 footer{
   background-color: #f8f8f8;
-<<<<<<< HEAD
   border-color: #e7e7e7;
-=======
-  border-color: #e73;
->>>>>>> master
   height: 30px;
   text-align: center;
-  color: #333;
+  color: #005d83;
     position:fixed;
     bottom:0px;
     left:0px;
