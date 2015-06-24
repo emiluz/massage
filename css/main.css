@@ -1,4 +1,6 @@
-
+body{
+  color: #005d83;
+}
 
 /*header*/
 .companyName{
@@ -48,6 +50,7 @@
 .Jumbotron{
   text-align:;
   margin: 5% 0 5% 0;
+  
 }
 .myCarousel{
   width: 600px;
