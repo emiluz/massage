@@ -14,13 +14,16 @@ body{
   text-align: center;
 }
 
-.container-nav{
+/*.container-nav{
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
+}*/
+
+.navbar-toggle{
+  margin-right: 15px;
+  margin-top: 20px;
 }
-
-
 /*Typography*/
 .navbar-brand {
   float: left;
@@ -53,7 +56,7 @@ body{
   
 }
 .myCarousel{
-  width: 600px;
+  width: 100%;
   margin: auto;
 }
 
@@ -102,4 +105,8 @@ footer{
   .navbar-brand{
     font-size: 2em;
   }
+}
+.nav-bar{
+  float: left;
+  margin-left: -8px;
 }
