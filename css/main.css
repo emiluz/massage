@@ -12,10 +12,15 @@
   text-align: center;
 }
 
-.container-nav{
+/*.container-nav{
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
+}*/
+
+.navbar-toggle{
+  margin-right: 15px;
+  margin-top: 20px;
 }
 
 
@@ -34,6 +39,7 @@
   padding-top: 10px;
   padding-bottom: 10px;
   line-height: 20px;
+  font-size: 1em;
   font-family: 'Open Sans Condensed', sans-serif;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -50,7 +56,7 @@
   margin: 5% 0 5% 0;
 }
 .myCarousel{
-  width: 600px;
+  width: 100%
   margin: auto;
 }
 
@@ -98,5 +104,11 @@ footer{
 @media (min-width: 768px){
   .navbar-brand{
     font-size: 2em;
+  }
+}
+
+  .navbar-nav > li {
+    float: left;
+    margin-left: -8px;
   }
 }
